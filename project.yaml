@@ -1,0 +1,19 @@
+title: All Dungeons s1e v1.9
+version: v1
+
+route: 
+  use: ./main.yaml
+
+config:
+  - use: Pistonight/celer-presets/botw/full.yaml
+  - splits:
+      - UserDefined
+      - Warp
+  - plugins:
+      - use: variables # required
+      - use: link # enables .link([Link]https://www.speedrun.com/botw)
+  - tags:
+      UserDefined:
+        background: orange
+        color: black
+        split-type: UserDefined
