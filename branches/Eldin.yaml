@@ -53,10 +53,10 @@
 - Take out Moblins:
     notes: Shoot Moblins with ancient arrows before cutscene starts
     icon: calamity
+    coord: [2151,-2290]
 
 - Talk to Yunobo:
-    comment: 
-    coord: [2151,-2290]
+    comment: Shoot Yunobo into bridge
 
 - Yunobo Escort
 - _Npc::Goron<Yunobo>:
