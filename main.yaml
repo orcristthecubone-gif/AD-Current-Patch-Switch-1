@@ -1,0 +1,22 @@
+- This route covers the All Dungeons route for the current patch of the game, played on the switch 1 edition.
+
+- Plateau:
+    - use: ./branches/plateau.yaml
+
+- Post-Medoh:
+    - use: ./branches/Post-Medoh.yaml
+
+- Gerudo:
+    - use: ./branches/Gerudo.yaml
+
+- Naboris:
+    - use: ./branches/Naboris.yaml
+
+- Eldin:
+    - use: ./branches/Eldin.yaml
+
+- Zora's Domain:
+    - use: ./branches/Zora.yaml
+
+- Calamity Ganon:
+    - use: ./branches/End.yaml
