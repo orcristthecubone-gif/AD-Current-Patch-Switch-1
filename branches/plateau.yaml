@@ -1,0 +1,148 @@
+# Standard BMSC Plateau Route
+- .!!(SoR clip):
+    color: green
+    icon: location
+
+- Run to .loc(Boko Camp)
+- _Material<6 Spicy Pepper>:
+    comment: Pick up
+    coord: [-952.34, 238.33, 1959.44]
+    notes: Pick up all Peppers first
+- _Equipment::Shield<Pot Lid>:
+    comment: Pick up
+- _Material<3 Hylian Shroom>:
+    comment: Pick up
+
+- Run, surf South to Snowy Area
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [-1019.60, 252.10, 2044.00]
+    comment: pick up
+- _Chest<5 Normal Arrow>:
+    coord: [-1011.19, 287.02, 2155.60]
+    comment: open chest
+
+- Run, surf SE to cliffs -> clip in 
+- _Shrine::OwaDaim:
+    comment: Run through casually
+
+- _Npc<Old Man>:
+    coord: [-930.75,2315.25]
+    comment: Text options 2-1-1-2
+
+- Boulder Stasis ride -> BTB -> clip in
+- _Shrine::KehNamut
+
+- BTB -> Clip in
+- _Shrine::OmanAu
+- _Material<Arrows>:
+    comment: Break Boxes, need 7 total arrows
+
+- _Chest<Ruby>:
+    coord: [-671.65, 171.79, 1522.61]
+    comment: open chest
+
+- Box Walk -> BTB -> clip in
+- _Shrine::JaBaij
+
+- Turn Windbomb L. of West -> Rocket Tree
+- _Npc<Paraglider>:
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]
+    counter: .var(UserDefined)
+
+- Windbomb North East
+- _Tower::GreatPlateau:
+    split-type: None 
+    comment: Raise tower 
+
+- Windbomb back to ToT:
+    coord: [-809.625,1954.625]
+    comment: BTB off Bokoblin
+    icon: bow
+
+- _Shrine::KatahChuki:
+    comment: activate shrine
+    notes: Scan 2 boko amiibo, pick up all steaks
+    split-type: None  
+
+- Turn Windbomb R. of North
+- _Chest<Ice Arrows x5>:
+    coord: [-529.74, 139.52, -694.06]
+    comment: open chest
+
+- Windbomb Northwest
+- _Chest<Ancient Arrow>:
+    coord: [-611.00, 132.58, -784.00]
+    comment: open chest
+
+- Windbomb chain West:
+    coord: [-1692.40, 256.13, -719.40]
+    comment: BTB off Lizalfos West 
+    icon: bow
+
+- Fly to .loc(Fairy Fountain)
+- _Material<2-3 Fairy>:
+    comment: Pick up
+    coord: [-3550.5,-731]
+- _Material<3 Mighty Thistle>:
+    comment: Pick up
+- _Equipment::Weapon<Tree Branch>:
+    coord: [-3530.5,-763.5]
+    comment: Cut down bushes
+
+- Windbomb North:
+    coord: [-3555.38, 330.13, -1030.42]
+- _Equipment::Weapon<Soldier's Claymore>:
+    coord: [-3555.38, 330.13, -1030.42]
+    comment: Pick up
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-3554.00, 331.55, -1047.30]
+    comment: Pick up
+
+- Rito Village:
+    comment: Turn Windbomb chain L. of North
+    counter: .user-defined-split()
+
+- _Npc<Kaneli>:
+    coord: [-3625.25,-1837.25]
+    comment: Talk to Elder
+
+- _Npc<Saki>:
+    coord: [-3605.5,-1821]
+    comment: Watch cutscene
+
+- _Shop<General Store>:
+    coord: [-3645.5,-1820.25]
+- Do IST:
+    notes: 
+    comment: Sell Rubies/Fairies for 1020 Rupees
+
+- Turn windbomb L. of North:
+    comment: From outside _Shop
+
+- _Npc<Teba>:
+    coord: [-3798,-2310.25]
+    comment: skip cutscene
+
+- Cook 5 Thistles .loc(Cooking Pot)
+
+- _Material<2 Arrow Bundles x5>:
+    coord: [-3795.75,-2326]
+    comment: Pick up
+
+- Talk to Teba, do mini-game
+- _Chest<Falcon Bow>:
+    coord: [-3804.75,-2317.5]
+    comment: Open chest
+
+- Board Vah Medoh:
+    coord: [-3859,-2285.25]
+    counter: .user-defined-split()
+    notes: Shoot cannons with Ancient Arrows
+    icon: medoh-enter
+
+- Windblight:
+    coord: [-3855.75,-2281.25]
+    notes: Phase 1- Headshot, boday shot, 3 headshots. Phase 2- Body shot, 3 headshots
+    icon: ganon
+    

@@ -1,0 +1,52 @@
+- .!!(Naboris Assault):
+      icon: shrine
+      icon-priority: 2
+      color: orange
+      movements:
+          - to: [-3816.3125,2819.1875]
+            warp: true
+
+- Windbomb to Riju South
+- _Npc::Gerudo<Riju>:
+    coord: [-3867.125,2946.5]
+    comment: On Balcony
+
+- Windbomb Southeast
+- _Npc::Gerudo<Riju>:
+    coord: [-3430.5,3125]
+    comment: Windbomb Southeast to outpost scaffolding
+
+- Start Assault
+- _Npc::Gerudo<Riju>:
+    coord: [-3224.5,3234]
+    comment: Hop off seal immediately
+
+- Windbomb into the desert:
+    coord: [-2945,3217]
+    comment: .gale(GALE 1)
+    notes: Use Gale. Midair windbomb east. Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris. Ordinal windbombs southeast to Naboris
+
+- Shoot 4 feet:
+    coord: [-2565.75,3742.25]
+    comment: GEB + bomb arrows
+    counter: .user-defined-split()
+    icon: naboris-enter
+
+- Vah Neboris:
+    comment: .gale(GALE 2-3)
+    coord: [-2472,3775]
+    notes: Use axe to activate electrical terminal.
+    icon: naboris-enter
+
+- Thunder Blight:
+    coord: [-2438,3741.5]
+    notes: Phase One- 2-3 headshots. Phase Two- knock down with lightning, shoot him in bullet-time
+    icon: ganon
+    
+- Urbosa's Fury:
+    icon: naboris-done
+    counter: .user-defined-split()
+    coord: [-2396,3700]
+    comment: Skip Heart Container
+
+- _Warp::Shrine::KatahChuki

@@ -1,0 +1,52 @@
+- .!!(Enter Zora's Domain):
+      icon: rudania-done
+      icon-priority: 4
+      color: blue
+      movements:
+          - to: [1604,-2453]
+            warp: true
+
+- Windbomb chain to BTB spot:
+    coord: [2079,-1543.5]
+    comment: Turn Windbombs L. of South
+
+- BTB off Bokoblin:
+    coord: [2104,-1535.25]
+    icon: bow
+    notes: Freeze first boko with splash damage. Freeze 2nd after he turns once.
+
+- Enter ZD
+- _Npc::ZoraMale<Dorephan>:
+    coord: [3327.5,-527.25]
+    comment: Fly directly into Throne Room
+
+- Fish Drama
+- _Npc::ZoraMale<Sidon>:
+    comment: Talk to Sidon and Muzu by statue
+    coord: [3303,-472]
+    counter: .user-defined-split()
+
+- Windbomb to Sidon
+- _Npc::ZoraMale<Sidon>:
+    comment: Talk to Sidon
+    coord: [3596,-342.5]
+    notes: Equip GEB, Shock Arrows, and Cryonis on the way to resevoir
+
+- Enter Vah Ruta:
+    coord: [3621.5,-94.5]
+    icon: ruta-enter
+    counter: .user-defined-split()
+    comment: go for 1-cycle
+
+- Water Blight:
+    coord: [3715.5,-137.5]
+    icon: ganon
+    notes: Phase Two- Headshot as much as possible in bullet time.
+
+- Mipha's Grace:
+    coord: [3661,-191.5]
+    comment: skip Heart Container
+    icon: ruta-done
+    counter: .user-defined-split()
+
+- _Warp::Shrine::KatahChuki
