@@ -1,0 +1,30 @@
+- .!!(Enter Eldin):
+      icon: shrine
+      icon-priority: 5
+      color: black
+      movements:
+          - to: [-636.5,-343]
+            warp: true
+
+- Windbomb chain to gate:
+    coord: [-259.5,-635]
+    comment: skip cutscene
+    notes: Turn Windbomb L. of East. Midair to the top of the gate
+
+- Enter Sanctum:
+    coord: [-254.5,-1065]
+    counter: .user-defined-split()
+    comment: Fly into Sanctum. Skip all Cutscenes.
+    notes: Windbomb North + midairs
+
+- Calamity Ganon:
+    coord: [-254,-1089.5]
+    counter: .user-defined-split()
+    icon: calamity
+    notes: All headshots on Calamity.
+
+- Beast Ganon:
+    counter: .user-defined-split()
+    split-name: Ganon
+    notes: Use Bow of Light  
+    icon: ganon

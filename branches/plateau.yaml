@@ -114,7 +114,7 @@
 - _Shop<General Store>:
     coord: [-3645.5,-1820.25]
 - Do IST:
-    notes: 
+    notes: https://ist.pistonite.app/github/orcristthecubone-gif/AD-Current-Patch-Switch-1/main/ist.txt
     comment: Sell Rubies/Fairies for 1020 Rupees
 
 - Turn windbomb L. of North:
@@ -145,4 +145,3 @@
     coord: [-3855.75,-2281.25]
     notes: Phase 1- Headshot, boday shot, 3 headshots. Phase 2- Body shot, 3 headshots
     icon: ganon
-    

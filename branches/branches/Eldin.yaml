@@ -1,0 +1,85 @@
+- .!!(Enter Eldin):
+      icon: shrine
+      icon-priority: 3
+      color: red
+      movements:
+          - to: [-636.5,-343]
+            warp: true
+
+- Windbomb chain to BTB
+- _Equipment::Bow<Knight's Bow>:
+    coord: [-193,-525.5]
+    comment: Pick up bow 
+    notes: Turn Windbomb L of East from Katah Chuki 
+
+- Reach Training Ground:
+    coord: [692.5,-1063]
+    comment: Windbomb chain heading Northeast
+
+- BTB to Eldin:
+    coord: [875.875,-1632.5]
+    comment: Use Moblin
+    notes: Whistle to get Moblin's attention prior to shooting arrow
+    icon: bow
+
+- Enter Goron City:
+    coord: [1266.5,-2203.75]
+    comment: Turn Windbomb L. of East
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.75,-2446.625]
+    comment: Talk to Elder
+
+- Save Yunobo:
+    coord: [1756.5,-2563.5]
+    notes: Windbomb North to Shae Mo'sah . Turn Windbomb L. of North after 
+
+- ESC into North Mine
+- _Npc::Goron<Yunobo>:
+    coord: [1632.5,-2940.5]
+    comment: Clear ragdoll after clip
+    notes: Get skew on slope right of clip-in spot.
+    counter: .user-defined-split()
+
+- Return to Bludo
+- _Npc::Goron<Bludo>:
+    coord: [1702.5,-2450.5]
+    comment: Turn Windbomb L. of South before catching fire
+
+- Go to Bridge of Eldin:
+    coord: [2000,-2311.5]
+    comment: Windbomb South then East
+
+- Take out Moblins:
+    notes: Shoot Moblins with ancient arrows before cutscene starts
+    icon: calamity
+
+- Talk to Yunobo:
+    comment: 
+    coord: [2151,-2290]
+
+- Yunobo Escort
+- _Npc::Goron<Yunobo>:
+    coord: [2232.25,-2368.75]
+
+- Rudania Assault:
+    coord: [2700,-2357]
+    comment: Fire Yunobo from cannons
+    icon: rudania-enter
+
+- Take out Sentries:
+    coord: [2792,-2655]
+    comment: GEB + Ancient Arrows on Sentries
+    counter: .user-defined-split()
+    icon: rudania-enter
+
+- Fire Blight:
+    coord: [2540,-2578]
+    icon: ganon
+    notes: All headshots on both phases
+
+- Vah Rudania:
+    coord: [2449,-2542]
+    icon: rudania-done
+    comment: Skip Heart Container
+    counter: .user-defined-split()

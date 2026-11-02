@@ -1,0 +1,70 @@
+- .!!(BTB chain to Gerudo):
+      icon: tower
+      icon-priority: 1
+      color: yellow
+      notes: Windbomb Southwest to ToT
+      movements:
+          - to: [-560.875,1695.9375]
+            warp: true
+
+- BTB to Gerudo Highlands:
+    coord: [-809.33, 263.58, 1964.35]
+    notes: BTB off bokoblin toward Gerudo Canyon
+    icon: bow
+
+- Lizalfos BTB:
+    coord: [-2210.36, 357.48, 2203.96]
+    notes: Use Lizalfos to BTB toward Gerudo
+    icon: bow
+
+- _Shrine::DaqoChisay:
+    comment: Talk to Benjamin for quest
+    notes: Activate Shrine for warp point
+    counter: .user-defined-split()
+
+- Gerudo Vai Outfit
+- _Npc<Vilia>:
+      coord: [-3259.27, 163.93, 2611.54]
+      comment: Turn Windbomb L. of East
+      notes: Buy clothes for 600 rupees
+
+- _Shop<General Store>:
+    coord: [-3857.4375,2913.125]
+    comment: Turn Windbomb L. of West
+    notes: Buy all Shock Arrow Bundles for 420 rupees
+
+- Run to Throne Room
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: talk to Riju
+
+- Exit Throne Room North:
+    comment: Turn Windbomb L. of North 
+    notes: Do BTB chain to Yiga Hideout
+
+- Bokoblin BTB:
+    coord: [-4128.5,2603.375]
+    icon: bow
+- Moblin BTB:
+    coord: [-3792,1866.25]
+    icon: bow
+- Yiga Clan Hideout:
+      icon: house-plus
+      icon-map: null
+      coord: [-3510.46, 442.51, 1297.31]
+      comment: Clip in
+
+- _Equipment::Bow<Duplex Bow>:
+      coord: [-3510.46, 442.51, 1297.31]
+      comment: Pick up
+
+- .boss(Kohga):
+      icon: calamity
+      coord: [-3451.00, 440.69, 1321.50]
+      notes: Clear ragdoll and skew after Kohga
+
+- _Chest::Special<Thunder Helm>:
+      coord: [-3451.00, 440.69, 1341.50]
+      counter: .user-defined-split()
+
+- _Warp::Shrine::DaqoChisay
