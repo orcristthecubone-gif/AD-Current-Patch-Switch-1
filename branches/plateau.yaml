@@ -114,7 +114,7 @@
 - _Shop<General Store>:
     coord: [-3645.5,-1820.25]
 - Do IST:
-    notes: https://ist.pistonite.app/github/orcristthecubone-gif/AD-Current-Patch-Switch-1/main/ist.txt
+    notes: .link([IST Simulator steps]https://ist.pistonite.app/github/orcristthecubone-gif/AD-Current-Patch-Switch-1/main/ist.txt)
     comment: Sell Rubies/Fairies for 1020 Rupees
 
 - Turn windbomb L. of North:
