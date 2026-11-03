@@ -117,7 +117,7 @@
 - _Shop<General Store>:
     coord: [-3645.5,-1820.25]
 - Do IST:
-    notes: .link([IST Simulator steps]https://ist.pistonite.app/github/orcristthecubone-gif/AD-Current-Patch-Switch-1/main/ist.txt) - For no-amiibo, see 2 luminous stones, buy 3 butter and 3 sugar cane
+    notes: .link([IST Simulator steps]https://ist.pistonite.app/github/orcristthecubone-gif/AD-Current-Patch-Switch-1/main/ist.txt) - For no-amiibo, sell 2 luminous stones, buy 3 butter and 3 sugar cane
     comment: Sell Rubies/Fairies for 1020 Rupees
 
 - Turn windbomb L. of North:
