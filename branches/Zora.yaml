@@ -23,6 +23,7 @@
 - Fish Drama:
     counter: .var(UserDefined)
     icon: location
+    
 - _Npc::ZoraMale<Sidon>:
     comment: Talk to Sidon and Muzu by statue
     coord: [3303,-472]
