@@ -13,4 +13,4 @@
     comment: Talk to Kaneli, open chest.
 
 - _Warp::Tower::GreatPlateau:
-    counter: none
+    counter: null

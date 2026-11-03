@@ -50,4 +50,4 @@
     comment: Skip Heart Container
 
 - _Warp::Shrine::KatahChuki:
-    counter: none
+    counter: null

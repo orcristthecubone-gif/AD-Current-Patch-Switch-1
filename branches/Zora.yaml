@@ -47,9 +47,9 @@
 
 - Mipha's Grace:
     coord: [3661,-191.5]
-    comment: skip Heart Container
     icon: ruta-done
     counter: .var(UserDefined)
+    comment: skip Heart Container
 
 - _Warp::Shrine::KatahChuki:
-    counter: none
+    counter: null
