@@ -54,7 +54,7 @@
 
 - Windbomb North East
 - _Tower::GreatPlateau:
-    conter: none 
+    counter: none 
     comment: Raise tower 
 
 - Windbomb back to ToT:
@@ -64,7 +64,7 @@
 
 - _Shrine::KatahChuki:
     comment: activate shrine
-    conter: none
+    counter: none
     notes: Scan 2 boko amiibo, pick up all steaks 
 
 - Turn Windbomb R. of North
