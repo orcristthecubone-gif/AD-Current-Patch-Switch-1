@@ -50,4 +50,4 @@
     counter: .var(UserDefined))
 
 - _Warp::Shrine::KatahChuki:
-    split-type: none
+    counter: none

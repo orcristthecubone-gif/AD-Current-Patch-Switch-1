@@ -36,10 +36,12 @@
 - _Shrine::OmanAu
 - _Material<Arrows>:
     comment: Break Boxes, need 7 total arrows
+    notes: For no-amiibo, optional food from boxes and 5 Hyrule Herbs nearby
 
 - _Chest<Ruby>:
     coord: [-671.65, 171.79, 1522.61]
     comment: open chest
+    notes: .link([Alternative to Ruby for no-DLC]https://youtu.be/G766yAN6Lv4?si=2kjUGPu9xMUkAyW8&t=1355)
 
 - Box Walk -> BTB -> clip in
 - _Shrine::JaBaij
@@ -52,7 +54,7 @@
 
 - Windbomb North East
 - _Tower::GreatPlateau:
-    split-type: none 
+    conter: none 
     comment: Raise tower 
 
 - Windbomb back to ToT:
@@ -62,9 +64,8 @@
 
 - _Shrine::KatahChuki:
     comment: activate shrine
-    split-type: none
-    notes: Scan 2 boko amiibo, pick up all steaks
-    split-type: None  
+    conter: none
+    notes: Scan 2 boko amiibo, pick up all steaks 
 
 - Turn Windbomb R. of North
 - _Chest<Ice Arrows x5>:
@@ -90,6 +91,7 @@
 - _Equipment::Weapon<Tree Branch>:
     coord: [-3530.5,-763.5]
     comment: Cut down bushes
+    notes: For no-amiibo, grab 5 Luminous stones nearby.
 
 - Windbomb North:
     coord: [-3555.38, 330.13, -1030.42]
@@ -115,7 +117,7 @@
 - _Shop<General Store>:
     coord: [-3645.5,-1820.25]
 - Do IST:
-    notes: .link([IST Simulator steps]https://ist.pistonite.app/github/orcristthecubone-gif/AD-Current-Patch-Switch-1/main/ist.txt)
+    notes: .link([IST Simulator steps]https://ist.pistonite.app/github/orcristthecubone-gif/AD-Current-Patch-Switch-1/main/ist.txt) - For no-amiibo, see 2 luminous stones, buy 3 butter and 3 sugar cane
     comment: Sell Rubies/Fairies for 1020 Rupees
 
 - Turn windbomb L. of North:

@@ -18,6 +18,7 @@
     icon: bow
 
 - _Shrine::DaqoChisay:
+    split-name: Activate Daqo Chisay 
     comment: Talk to Benjamin for quest
     notes: Activate Shrine for warp point
     counter: .var(UserDefined)
@@ -68,4 +69,4 @@
       counter: .var(UserDefined)
 
 - _Warp::Shrine::DaqoChisay:
-    split-type: none
+    counter: none

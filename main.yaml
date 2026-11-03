@@ -1,4 +1,4 @@
-- This route covers the All Dungeons route for the current patch of the game, played on the switch 1 edition.
+- This route covers the All Dungeons route for the current patch of the game, played on the switch 1 edition. This route also uses amiibo, but there are no-amiibo instructions at points.
 
 - Plateau:
     - use: ./branches/plateau.yaml
