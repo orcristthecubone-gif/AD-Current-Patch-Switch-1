@@ -23,7 +23,7 @@
 - Fish Drama:
     counter: .var(UserDefined)
     icon: location
-    
+
 - _Npc::ZoraMale<Sidon>:
     comment: Talk to Sidon and Muzu by statue
     coord: [3303,-472]
@@ -49,7 +49,7 @@
     coord: [3661,-191.5]
     comment: skip Heart Container
     icon: ruta-done
-    counter: .var(UserDefined))
+    counter: .var(UserDefined)
 
 - _Warp::Shrine::KatahChuki:
     counter: none
