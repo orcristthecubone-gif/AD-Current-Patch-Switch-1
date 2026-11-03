@@ -30,16 +30,16 @@
     coord: [1713.75,-2446.625]
     comment: Talk to Elder
 
-- Save Yunobo:
+- Find Yunobo:
     coord: [1756.5,-2563.5]
     notes: Windbomb North to Shae Mo'sah . Turn Windbomb L. of North after 
 
-- ESC into North Mine
+- Yunobo:
+    counter: .var(UserDefined)
 - _Npc::Goron<Yunobo>:
     coord: [1632.5,-2940.5]
     comment: Clear ragdoll after clip
-    notes: Get skew on slope right of clip-in spot.
-    counter: .user-defined-split()
+    notes: ESC into North Mine. Get skew on slope right of clip-in spot.
 
 - Return to Bludo
 - _Npc::Goron<Bludo>:
@@ -67,10 +67,10 @@
     comment: Fire Yunobo from cannons
     icon: rudania-enter
 
-- Take out Sentries:
+- Board Vah Rudania:
     coord: [2792,-2655]
     comment: GEB + Ancient Arrows on Sentries
-    counter: .user-defined-split()
+    counter: .var(UserDefined)
     icon: rudania-enter
 
 - Fire Blight:
@@ -78,8 +78,8 @@
     icon: ganon
     notes: All headshots on both phases
 
-- Vah Rudania:
+- Daruk's Protection:
     coord: [2449,-2542]
     icon: rudania-done
     comment: Skip Heart Container
-    counter: .user-defined-split()
+    counter: .var(UserDefined)

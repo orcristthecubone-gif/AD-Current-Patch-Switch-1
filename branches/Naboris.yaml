@@ -26,10 +26,10 @@
     comment: .gale(GALE 1)
     notes: Use Gale. Midair windbomb east. Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris. Ordinal windbombs southeast to Naboris
 
-- Shoot 4 feet:
+- Board Vah Naboris:
     coord: [-2565.75,3742.25]
     comment: GEB + bomb arrows
-    counter: .user-defined-split()
+    counter: .var(UserDefined)
     icon: naboris-enter
 
 - Vah Neboris:
@@ -45,8 +45,9 @@
     
 - Urbosa's Fury:
     icon: naboris-done
-    counter: .user-defined-split()
+    counter: .var(UserDefined)
     coord: [-2396,3700]
     comment: Skip Heart Container
 
-- _Warp::Shrine::KatahChuki
+- _Warp::Shrine::KatahChuki:
+    split-type: null

@@ -20,7 +20,7 @@
 - _Shrine::DaqoChisay:
     comment: Talk to Benjamin for quest
     notes: Activate Shrine for warp point
-    counter: .user-defined-split()
+    counter: .var(UserDefined)
 
 - Gerudo Vai Outfit
 - _Npc<Vilia>:
@@ -65,6 +65,7 @@
 
 - _Chest::Special<Thunder Helm>:
       coord: [-3451.00, 440.69, 1341.50]
-      counter: .user-defined-split()
+      counter: .var(UserDefined)
 
-- _Warp::Shrine::DaqoChisay
+- _Warp::Shrine::DaqoChisay:
+    split-type: null

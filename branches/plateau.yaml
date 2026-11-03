@@ -52,7 +52,7 @@
 
 - Windbomb North East
 - _Tower::GreatPlateau:
-    split-type: None 
+    split-type: null 
     comment: Raise tower 
 
 - Windbomb back to ToT:
@@ -62,6 +62,7 @@
 
 - _Shrine::KatahChuki:
     comment: activate shrine
+    split-type: null
     notes: Scan 2 boko amiibo, pick up all steaks
     split-type: None  
 
@@ -101,7 +102,7 @@
 
 - Rito Village:
     comment: Turn Windbomb chain L. of North
-    counter: .user-defined-split()
+    counter: .var(UserDefined)
 
 - _Npc<Kaneli>:
     coord: [-3625.25,-1837.25]
@@ -137,7 +138,7 @@
 
 - Board Vah Medoh:
     coord: [-3859,-2285.25]
-    counter: .user-defined-split()
+    counter: .var(UserDefined)
     notes: Shoot cannons with Ancient Arrows
     icon: medoh-enter
 

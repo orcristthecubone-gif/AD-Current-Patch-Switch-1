@@ -20,11 +20,11 @@
     coord: [3327.5,-527.25]
     comment: Fly directly into Throne Room
 
-- Fish Drama
+- Fish Drama:
+    counter: .var(UserDefined)
 - _Npc::ZoraMale<Sidon>:
     comment: Talk to Sidon and Muzu by statue
     coord: [3303,-472]
-    counter: .user-defined-split()
 
 - Windbomb to Sidon
 - _Npc::ZoraMale<Sidon>:
@@ -32,10 +32,10 @@
     coord: [3596,-342.5]
     notes: Equip GEB, Shock Arrows, and Cryonis on the way to resevoir
 
-- Enter Vah Ruta:
+- Board Enter Vah Ruta:
     coord: [3621.5,-94.5]
     icon: ruta-enter
-    counter: .user-defined-split()
+    counter: .var(UserDefined)
     comment: go for 1-cycle
 
 - Water Blight:
@@ -47,6 +47,7 @@
     coord: [3661,-191.5]
     comment: skip Heart Container
     icon: ruta-done
-    counter: .user-defined-split()
+    counter: .var(UserDefined))
 
-- _Warp::Shrine::KatahChuki
+- _Warp::Shrine::KatahChuki:
+    split-type: null
