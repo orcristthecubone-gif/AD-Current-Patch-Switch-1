@@ -16,10 +16,10 @@
     coord: [-3430.5,3125]
     comment: Windbomb Southeast to outpost scaffolding
 
-- Start Assault
-- _Npc::Gerudo<Riju>:
+- Start Assault:
     coord: [-3224.5,3234]
     comment: Hop off seal immediately
+    icon: naboris-enter
 
 - Windbomb into the desert:
     coord: [-2945,3217]

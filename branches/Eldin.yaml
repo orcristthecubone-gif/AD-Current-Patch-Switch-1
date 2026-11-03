@@ -24,7 +24,7 @@
 
 - Enter Goron City:
     coord: [1266.5,-2203.75]
-    comment: Turn Windbomb L. of East
+    notes: Turn Windbomb L. of East
 
 - _Npc::Goron<Bludo>:
     coord: [1713.75,-2446.625]
@@ -32,20 +32,20 @@
 
 - Find Yunobo:
     coord: [1756.5,-2563.5]
-    notes: Windbomb North to Shae Mo'sah . Turn Windbomb L. of North after 
-
-- Yunobo:
-    counter: .var(UserDefined)
-    icon: npc-goron
+    notes: Windbomb North to Shae Mo'sah . Turn Windbomb L. of North after
+    
 - _Npc::Goron<Yunobo>:
     coord: [1632.5,-2940.5]
     comment: Clear ragdoll after clip
+    split-name: Yunobo
+    icon: npc-goron
+    counter: .var(UserDefined)
     notes: ESC into North Mine. Get skew on slope right of clip-in spot.
 
-- Return to Bludo
-- _Npc::Goron<Bludo>:
+- Return to Bludo:
     coord: [1702.5,-2450.5]
-    comment: Turn Windbomb L. of South before catching fire
+    notes: Turn Windbomb L. of South before catching fire
+    icon: npc-goron
 
 - Go to Bridge of Eldin:
     coord: [2000,-2311.5]
@@ -59,9 +59,9 @@
 - Talk to Yunobo:
     comment: Shoot Yunobo into bridge
 
-- Yunobo Escort
-- _Npc::Goron<Yunobo>:
+- Yunobo Escort:
     coord: [2232.25,-2368.75]
+    icon: npc-goron
 
 - Rudania Assault:
     coord: [2700,-2357]
