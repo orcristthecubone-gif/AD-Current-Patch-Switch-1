@@ -105,6 +105,7 @@
 - Rito Village:
     comment: Turn Windbomb chain L. of North
     counter: .var(UserDefined)
+    icon: Zelda
 
 - _Npc<Kaneli>:
     coord: [-3625.25,-1837.25]

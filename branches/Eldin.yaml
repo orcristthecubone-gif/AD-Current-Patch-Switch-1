@@ -36,6 +36,7 @@
 
 - Yunobo:
     counter: .var(UserDefined)
+    icon: Yunobo
 - _Npc::Goron<Yunobo>:
     coord: [1632.5,-2940.5]
     comment: Clear ragdoll after clip

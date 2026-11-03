@@ -16,6 +16,7 @@
     counter: .var(UserDefined)
     comment: Fly into Sanctum. Skip all Cutscenes.
     notes: Windbomb North + midairs
+    icon: Castle
 
 - Calamity Ganon:
     coord: [-254,-1089.5]
