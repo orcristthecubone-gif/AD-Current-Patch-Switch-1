@@ -106,6 +106,7 @@
     comment: Turn Windbomb chain L. of North
     counter: .var(UserDefined)
     icon: Zelda
+    Zelda: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
 
 - _Npc<Kaneli>:
     coord: [-3625.25,-1837.25]
