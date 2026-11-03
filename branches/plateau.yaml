@@ -52,7 +52,7 @@
 
 - Windbomb North East
 - _Tower::GreatPlateau:
-    split-type: null 
+    split-type: none 
     comment: Raise tower 
 
 - Windbomb back to ToT:
@@ -62,7 +62,7 @@
 
 - _Shrine::KatahChuki:
     comment: activate shrine
-    split-type: null
+    split-type: none
     notes: Scan 2 boko amiibo, pick up all steaks
     split-type: None  
 

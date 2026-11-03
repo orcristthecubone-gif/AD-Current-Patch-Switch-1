@@ -50,4 +50,4 @@
     comment: Skip Heart Container
 
 - _Warp::Shrine::KatahChuki:
-    split-type: null
+    split-type: none
